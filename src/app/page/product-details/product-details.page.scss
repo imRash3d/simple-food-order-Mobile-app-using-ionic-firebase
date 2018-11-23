@@ -8,10 +8,13 @@ p {
 }
 
 .price-section {
+    margin: 25px 0;
     text-align: center;
 }
 
-.order {
+button {
     background: #05923c;
-
+    border-radius: 0;
+    width: 100%;
 }
+

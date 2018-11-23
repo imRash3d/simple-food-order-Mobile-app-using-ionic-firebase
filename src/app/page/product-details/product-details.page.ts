@@ -11,5 +11,7 @@ export class ProductDetailsPage implements OnInit {
 
   ngOnInit() {
   }
-
+  selectQty(e) {
+    console.log(e)
+  }
 }

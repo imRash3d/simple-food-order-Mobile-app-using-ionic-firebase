@@ -11,8 +11,8 @@ const routes: Routes = [
     path: 'home',
     loadChildren: './page/home/home.module#HomePageModule'
   },
-  { path: 'product-list', loadChildren: './page/product-list/product-list.module#ProductListPageModule' },
-  { path: 'product-details', loadChildren: './page/product-details/product-details.module#ProductDetailsPageModule' },
+  { path: 'product-list/:id', loadChildren: './page/product-list/product-list.module#ProductListPageModule' },
+  { path: 'product-details/:id', loadChildren: './page/product-details/product-details.module#ProductDetailsPageModule' },
   { path: 'order', loadChildren: './page/order/order.module#OrderPageModule' }
 ];
 

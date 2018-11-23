@@ -16,8 +16,16 @@
     </ion-row>
     <ion-row  class="price-section">
       <ion-col>
-       <p>quantity</p>
-       <p>5</p>
+       <p></p>
+       <ion-item>
+        <ion-label>Quantity</ion-label>
+        <ion-select (chanage)="selectQty($event)" value="brown" ok-text="Okay" cancel-text="Dismiss">
+          <ion-select-option value="1">1</ion-select-option>
+          <ion-select-option value="2">2</ion-select-option>
+          <ion-select-option value="3">3</ion-select-option>
+          <ion-select-option value="4">4</ion-select-option>
+        </ion-select>
+      </ion-item>
       </ion-col>
       <ion-col>
         <p>Total</p>
@@ -25,7 +33,7 @@
       </ion-col>
     </ion-row>
     <ion-row>
-        <button class="order" ion-button round>Place The Order </button>
+        <ion-button  class="order" shape="round" color="primary" fill="outline">Place The Order </ion-button>
     </ion-row>
   </ion-grid>
 </ion-content>
