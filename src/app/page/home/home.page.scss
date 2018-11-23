@@ -1,0 +1,17 @@
+
+.item {
+position: relative;
+}
+.item .overly {
+    position: absolute;width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.4)
+}
+.item h2 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #fff;
+}

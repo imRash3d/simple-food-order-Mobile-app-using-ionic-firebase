@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>product-list</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+      <ion-card [routerLink]="['/','product-details']">
+          <p>Cold Coffe</p>
+        <ion-card-content>
+         
+          <img src="./assets/img/1382542442044.jpeg" >
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                Price :$10
+              </ion-col>
+              <ion-col>
+                  <ion-icon name="ios-heart-outline"></ion-icon> 350
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+      <ion-card>
+          <p>Cold Coffe</p>
+        <ion-card-content>
+         
+          <img src="./assets/img/1382542442044.jpeg" >
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                $10
+              </ion-col>
+              <ion-col>
+                  <ion-icon name="ios-heart-outline"></ion-icon> 350
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+</ion-content>
